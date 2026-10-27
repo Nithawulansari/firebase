@@ -1,0 +1,188 @@
+{
+  "customers": {
+    "customer_001": {
+      "email": "alya@example.com",
+      "name": "Alya Putri",
+      "phone": "081234567890"
+    },
+    "customer_002": {
+      "email": "raka@example.com",
+      "name": "Raka Pratama",
+      "phone": "081298765432"
+    },
+    "customer_003": {
+      "email": "nadia@example.com",
+      "name": "Nadia Safitri",
+      "phone": "082112223333"
+    }
+  },
+  "orders": {
+    "order_001": {
+      "customer_id": "customer_001",
+      "date": "2026-10-20T09:00:00.000Z",
+      "id": "GC-00000001",
+      "items": [
+        {
+          "name": "Butter Croissant",
+          "price": 22000,
+          "product_id": 1,
+          "qty": 2
+        }
+      ],
+      "status": "Menunggu",
+      "total": 44000
+    },
+    "order_002": {
+      "customer_id": "customer_002",
+      "date": "2026-10-21T11:30:00.000Z",
+      "id": "GC-00000002",
+      "items": [
+        {
+          "name": "Chocolate Donut",
+          "price": 15000,
+          "product_id": 3,
+          "qty": 3
+        }
+      ],
+      "status": "Diproses",
+      "total": 45000
+    },
+    "order_003": {
+      "customer_id": "customer_003",
+      "date": "2026-10-22T14:15:00.000Z",
+      "id": "GC-00000003",
+      "items": [
+        {
+          "name": "Cinnamon Roll",
+          "price": 19000,
+          "product_id": 5,
+          "qty": 1
+        }
+      ],
+      "status": "Selesai",
+      "total": 19000
+    }
+  },
+  "products": {
+    "product_001": {
+      "category": "Croissant",
+      "description": "Pastry renyah berlapis dengan butter premium.",
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=700&q=80",
+      "name": "Butter Croissant",
+      "price": 22000,
+      "stock": 18,
+      "tag": "Terlaris"
+    },
+    "product_002": {
+      "category": "Roti",
+      "description": "Roti sourdough berkulit garing dan beraroma.",
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?auto=format&fit=crop&w=700&q=80",
+      "name": "Classic Sourdough",
+      "price": 38000,
+      "stock": 12,
+      "tag": "Artisan"
+    },
+    "product_003": {
+      "category": "Donat",
+      "description": "Donat lembut dengan glaze cokelat yang kaya.",
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=700&q=80",
+      "name": "Chocolate Donut",
+      "price": 15000,
+      "stock": 24,
+      "tag": "Favorit"
+    },
+    "product_004": {
+      "category": "Cake",
+      "description": "Sponge cake lembut dengan krim dan stroberi.",
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80",
+      "name": "Strawberry Shortcake",
+      "price": 42000,
+      "stock": 8,
+      "tag": "Baru"
+    },
+    "product_005": {
+      "category": "Pastry",
+      "description": "Roti gulung kayu manis dengan icing lembut.",
+      "id": 5,
+      "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=700&q=80",
+      "name": "Cinnamon Roll",
+      "price": 19000,
+      "stock": 15,
+      "tag": "Terlaris"
+    },
+    "product_006": {
+      "category": "Pastry",
+      "description": "Danish buttery dengan topping almond panggang.",
+      "id": 6,
+      "image": "https://images.unsplash.com/photo-1623334044303-241021148842?auto=format&fit=crop&w=700&q=80",
+      "name": "Almond Danish",
+      "price": 26000,
+      "stock": 10,
+      "tag": "Artisan"
+    },
+    "product_007": {
+      "category": "Roti",
+      "description": "Roti susu empuk dengan rasa manis ringan.",
+      "id": 7,
+      "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484e1?auto=format&fit=crop&w=700&q=80",
+      "name": "Milk Bun",
+      "price": 12000,
+      "stock": 30,
+      "tag": "Harian"
+    },
+    "product_008": {
+      "category": "Cake",
+      "description": "Cake cokelat moist dengan ganache lembut.",
+      "id": 8,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80",
+      "name": "Chocolate Cake",
+      "price": 45000,
+      "stock": 7,
+      "tag": "Favorit"
+    },
+    "product_009": {
+      "category": "Donat",
+      "description": "Donat klasik dengan glaze manis yang tipis.",
+      "id": 9,
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=700&q=80",
+      "name": "Glazed Donut",
+      "price": 13000,
+      "stock": 20,
+      "tag": "Fresh"
+    },
+    "product_010": {
+      "category": "Croissant",
+      "description": "Pastry berlapis dengan isian cokelat premium.",
+      "id": 10,
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=700&q=80",
+      "name": "Pain au Chocolat",
+      "price": 24000,
+      "stock": 14,
+      "tag": "Favorit"
+    },
+    "product_011": {
+      "category": "Roti",
+      "description": "Banana bread lembap dengan aroma pisang matang.",
+      "id": 11,
+      "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484e1?auto=format&fit=crop&w=700&q=80",
+      "name": "Banana Bread",
+      "price": 28000,
+      "stock": 9,
+      "tag": "Homemade"
+    },
+    "product_012": {
+      "category": "Pastry",
+      "description": "Tart mini dengan isian keju yang creamy.",
+      "id": 12,
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=700&q=80",
+      "name": "Mini Cheese Tart",
+      "price": 18000,
+      "stock": 16,
+      "tag": "Baru"
+    }
+  }
+}
